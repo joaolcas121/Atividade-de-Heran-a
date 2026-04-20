@@ -1,0 +1,27 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/joaolcas121/Atividade-de-Heran-a#readme",
+  "bugs": {
+    "url": "https://github.com/joaolcas121/Atividade-de-Heran-a/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaolcas121/Atividade-de-Heran-a.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
